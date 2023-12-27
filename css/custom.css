@@ -1,0 +1,115 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    background: center / cover url('../img/background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.blue {
+    background: rgba(52, 112, 135, 0.9);
+}
+.red {
+    background: rgba(54, 21, 39, 0.9);
+}
+.back {
+    padding: 0 5px;
+    font-size: 1.5rem;
+    display: inline-block;
+}
+.back-red {
+    background-color: #361527;
+}
+.back-blue {
+    background-color: #347087;
+}
+img:hover {
+    transform: scale(1.1);
+}
+
+/* SECTION 1 */
+#section-1 .row {
+    align-items: center;
+}
+#logo {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+#section-1 form{
+    background-color: #347087;
+}
+#section-1 .col-12 input{
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+#section-1 .col-12 .btn{
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: #361527;
+    transition: all .5s;
+    border: none;
+}
+#section-1 .col-12 .btn:hover{
+    background-color: #561d3c;
+    transform: scale(1.02);
+}
+
+/* SECTION 2 */
+#section-2 .col-sm-4 {
+    color: #000;
+    text-align: center;
+}
+#section-2 .col-sm-4 img {
+    width: 50px;
+    transition: all .5s;
+}
+#section-2 .col-sm-4 p {
+    font-size: .8rem;
+    margin-top: 20px;
+}
+.btn-mine {
+    background-color: #347087;
+    border-radius: 20px;
+    transition: all .5s;
+    border: none;
+}
+.btn-mine:hover {
+    background-color: #459dc0;
+    transform: scale(1.02);
+}
+
+/* SECTION 3 */
+#section-3 .row .col-12{
+    font-size: 1rem;
+}
+
+/* SECTION 4 */
+#section-4 .col-sm-3 {
+    color: #000;
+    text-align: center;
+}
+#section-4 .col-sm-3 img {
+    width: 50px;
+    transition: all .5s;
+}
+#section-4 .col-sm-3 p {
+    font-size: .8rem;
+    margin-top: 20px;
+}
+
+/* FOOTER */
+#footer {
+    font-size: .8rem;
+    border-top: 1px solid #000;
+}
+
+@media (min-width: 768px) {
+    #section-2 .back,
+    #section-4 .back{
+        font-size: 2rem;
+    }
+    #section-3 .row .col-12{
+        font-size: 1.4rem;
+    }
+}
